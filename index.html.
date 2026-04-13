@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Alcione Santos</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Alcione Santos</h1>
+  <nav>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+<!-- SOBRE -->
+<section id="sobre" class="fade">
+  <h2>Sobre Mim</h2>
+
+  <img src="https://i.ibb.co/RGPMD0sQ/IMG-6873.jpg" alt="Foto de Alcione">
+
+  <p>
+    Sou estudante de Tecnologia em Sistemas para Internet, com foco em desenvolvimento web e criação de soluções digitais modernas. Tenho interesse em projetos online, e-commerce e aplicações interativas, buscando constantemente aprimorar minhas habilidades técnicas e contribuir com soluções eficientes e inovadoras no ambiente digital.
+  </p>
+</section>
+
+<!-- PROJETOS -->
+<section id="projetos" class="fade">
+  <h2>Meus Projetos</h2>
+  <div id="lista-projetos"></div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="fade">
+  <h2>Contato</h2>
+
+  <div class="info-contato">
+    <p><strong>Nome:</strong> Alcione Maria dos Santos</p>
+    <p><strong>Email:</strong> alcione46123@gmail.com</p>
+  </div>
+
+</section>
+
+</main>
+
+<footer>
+  <p>2026 - Desenvolvido por Alcione Santos</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
